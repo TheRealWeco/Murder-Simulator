@@ -34,7 +34,7 @@ public class Frame extends JFrame implements MouseListener{
 				Main.game.getSpriteSheet().getSubimage(250, 50, 50, 50), "pirates_death.wav");
 		
 		enemyWalking.add(enemyWalk);
-		spawn = new EnemySpawner(enemyWalk, 200);//
+		spawn = new EnemySpawner(enemyWalk, 200);//test
 	      /*addMouseListener(new MouseAdapter() { 
 	          public void mousePressed(MouseEvent me) { 
 	        	  player.fire();
